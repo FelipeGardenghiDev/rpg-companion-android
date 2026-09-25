@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- D20 Geometric Emblem in Gold -->
+    <path
+        android:fillColor="#E5A93C"
+        android:pathData="M54,20 L84,36 L84,72 L54,88 L24,72 L24,36 Z" />
+    <path
+        android:strokeColor="#121216"
+        android:strokeWidth="2"
+        android:pathData="M54,20 L54,54 M84,36 L54,54 M84,72 L54,54 M54,88 L54,54 M24,72 L54,54 M24,36 L54,54" />
+</vector>

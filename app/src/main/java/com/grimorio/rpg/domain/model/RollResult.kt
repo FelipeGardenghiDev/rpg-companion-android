@@ -1,8 +1,11 @@
 package com.grimorio.rpg.domain.model
 
+import kotlinx.serialization.Serializable
+
 /**
  * Resultado detalhado de uma rolagem para exibição e histórico.
  */
+@Serializable
 data class RollResult(
     val formula: String,
     val total: Int,
@@ -16,6 +19,7 @@ data class RollResult(
 /**
  * Detalhes de um conjunto de dados dentro da expressão (ex: os 2d20 dentro de "2d20kh1 + 1d4 + 3").
  */
+@Serializable
 data class DiceGroupResult(
     val count: Int,
     val sides: Int,
